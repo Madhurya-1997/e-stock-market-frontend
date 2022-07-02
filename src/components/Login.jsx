@@ -1,10 +1,9 @@
-const Login = (props) => {
+import React from 'react'
+
+const Login = () => {
     return (
-        <div>
-            <div className="text-3xl font-bold underline">Login</div>
-            <p>Username: {props.username}</p>
-        </div>
+        <div>Login</div>
     )
 }
 
-export default Login;
+export default Login
